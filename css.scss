@@ -1,0 +1,77 @@
+ul{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 94%);
+    background-size: contain;
+    height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;     
+ li{
+    color:palevioletred;
+    font-size: 20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: scale(1,1);
+     }
+ li:hover{
+    transform: scale(1,2);
+ }
+ a{
+  text-decoration: none;
+ }
+}
+
+tr{ 
+  th{
+    color:rgb(241, 233, 241);
+    
+    }
+}
+tr{ 
+  td{
+    color:rgb(206, 201, 206)
+  }
+}
+
+fieldset{ 
+ input{
+    color:rgba(46, 9, 5, 0.74);
+    background-color: rgba(216, 152, 68, 0.795);
+    border: hidden 5px solid black;
+ }
+}
+
+@each $footer in footer{
+  .#{$footer}-icon { 
+    color: rgb(78, 9, 78);
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display: inline-block;
+    font-display:initial;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    transform: scale(1,1);
+  }
+}
+
+#panelUno{
+  background-image: none;
+  background-color: none;
+  display: grid;
+  grid-template-areas: "foto1 foto2 foto3";
+  justify-items: center;   
+  transition: height 2s, width 2s;
+}
+#panelDos --nueva {
+  @extend #panelUno;
+}

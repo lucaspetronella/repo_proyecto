@@ -1,0 +1,311 @@
+
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: 100%;
+}
+
+h1{
+    color:rgb(117, 11, 117);
+    font-size: 50px;
+    font-family: 'Dancing Script';
+    text-align: center;
+    margin-top: 0%;
+   
+}
+
+
+h6{
+    color: black;
+    font-size: 15px;
+}
+
+
+ul{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 94%);
+    background-size: contain;
+    height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+      
+li{
+    color:palevioletred;
+    font-size: 20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: scale(1,1);
+}
+li:hover{
+    transform: scale(1,2);
+}
+a{
+    text-decoration: none;
+}
+
+select{
+    background-color: rgb(255, 251, 254);
+    font-size: 22px;
+}
+
+option{
+    color: rgb(12, 11, 11);
+    font-size: 13px;
+    font-family: 'Fira Sans Condensed', sans-serif ;
+    font-weight: bold;
+}
+
+
+
+#botonBuscar{
+        color:rgba(245, 245, 245, 0.856);
+        background-color: rgb(247, 212, 14);
+        font-family: 'Fira Sans Condensed', sans-serif;
+        font-size: 22px;
+}
+
+
+h2{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+
+.botones{
+    color:rgb(62, 6, 114);
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+footer{
+    color: rgb(78, 9, 78);
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display: inline-block;
+    font-display:initial;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    transform: scale(1,1);
+}
+
+table{
+    color:cornsilk;
+    font-size: 20px;
+    border: none;
+    list-style-type: none;
+    width: 54px;
+    height: 66px;
+    background-color: rgb(241, 245, 245);
+    border-top: solid 10px black;
+    border-bottom: solid 10px black;
+    border-left: solid 10px black;
+    border-right: solid 10px black;
+    background-color: rgb(226, 171, 99);
+}
+ 
+#docVacio{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: 100%;
+}
+
+#docVacioDos{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: 100%;
+}
+
+#ventanaTabla{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: 100%;
+}
+#formBody{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: 100%;
+}
+
+#panelCero{
+    background-image: url(edificios.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.selectores{
+    height: 50px;
+}
+.selectoresUno{
+    height: 50px;
+}
+.selectoresDos{
+    height: 50px;
+}
+#selectoresTres{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(228, 141, 27);
+}
+
+
+h4{
+    color: black;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#panelUno{
+    background-image: none;
+    background-color: none;
+    display: grid;
+    grid-template-areas: "foto1 foto2 foto3";
+    justify-items: center;   
+    transition: height 2s, width 2s;
+}
+
+#panelDos{
+    background-image: none;
+    background-color: none;
+    display: grid;
+    grid-template-areas: "foto4 foto5 foto6";
+    justify-items: center;
+    transition: height 2s, width 2s;
+}
+
+#panelTres{
+    background-image: none;
+    background-color: none;
+    display: grid;
+    grid-template-areas: "foto7 foto8 foto9";
+    justify-items: center;
+    transition: height 2s, width 2s;
+}
+
+
+#buscadorPrincipal{
+    background-image: none;
+    background-color: none;
+    display: grid;
+    grid-template-columns: 200px 400px 400px;
+    grid-template-rows: 200px 300px 300px;
+    grid-template-areas: "res1 res2 res3"
+                         "res1 res4 res5"
+                         "res1 res6 res7";
+    justify-items: center;  
+    row-gap: 90px;
+    column-gap: 150px; 
+    justify-content: space-evenly;
+    align-content: center;
+    transition: height 2s, width 2s;
+}
+
+#buscadorOtro{
+    display: grid;
+    grid-area: res1;
+    align-content: stretch;
+    align-self: flex-start;
+    height: 100%;
+}
+#empUno{
+    display: grid;
+    grid-area: res2;
+}
+#emp2{
+    display: grid;
+    grid-area: res3;
+}
+#emp3{
+    display: grid;
+    grid-area: res4;
+}
+#emp4{
+    display: grid;
+    grid-area: res5;
+}
+#emp5{
+    display: grid;
+    grid-area: res6;
+}
+#emp6{
+    display: grid;
+    grid-area: res7;
+}
+
+#buscadorSegundo{
+    background-image: none;
+    background-color: none;
+    display: grid;
+    grid-template-columns: 200px 400px 400px;
+    grid-template-rows: 200px 300px 300px;
+    grid-template-areas: "res1 res2 res3"
+                         "res1 res4 res5"
+                         "res1 res6 res7";
+    justify-items: center;  
+    row-gap: 200px;
+    column-gap: 150px; 
+    justify-content: space-evenly;
+    align-content: center;
+    transition: height 2s, width 2s;
+}
+
+#divDocVacio{
+    height: 800px;
+}
+
+#buscadorOtro{
+    display: grid;
+    grid-area: res1;
+    align-content: stretch;
+}
+#propUno{
+    display: grid;
+    grid-area: res2;
+}
+#prop2{
+    display: grid;
+    grid-area: res3;
+}
+#prop3{
+    display: grid;
+    grid-area: res4;
+}
+#prop4{
+    display: grid;
+    grid-area: res5;
+}
+#prop5{
+    display: grid;
+    grid-area: res6;
+}
+#prop6{
+    display: grid;
+    grid-area: res7;
+}
+
+tr, th{
+    color:rgb(241, 233, 241);
+    
+}
+
+tr, td{
+    color:rgb(206, 201, 206)
+}
+
+fieldset, input{
+    color:rgba(46, 9, 5, 0.74);
+    background-color: rgba(216, 152, 68, 0.795);
+    border: hidden 5px solid black;
+}
